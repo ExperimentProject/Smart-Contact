@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#fff"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_man"
+            android:hint="Contact Name"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/contactPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_phone"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/contactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:hint="Contact Email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/spSelectGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext" />
+
+        <EditText
+            android:id="@+id/contactHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_man"
+            android:hint=" Type Phone"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/contactCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_com"
+            android:hint=" Typte City"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/contactDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_book2"
+            android:hint="Type sort Description"
+            android:inputType="textMultiLine"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnAnother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="setAnother"
+            android:padding="10dp"
+            android:text="Add Another Field" />
+    </LinearLayout>
+
+</ScrollView>

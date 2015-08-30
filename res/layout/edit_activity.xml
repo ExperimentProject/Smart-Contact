@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/upimageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#fff"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF0000"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/upContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_man"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/upContactPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_phone"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/upContactEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <Spinner
+            android:id="@+id/upSpSelectGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext" />
+
+        <EditText
+            android:id="@+id/upContactHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_man"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/upContactCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_com"
+            android:hint=" Typte City"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/upContactDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight=".3"
+            android:background="@drawable/background_round_corner_edittext"
+            android:drawableLeft="@drawable/ic_book2"
+            android:hint="Type sort Description"
+            android:inputType="textMultiLine"
+            android:textSize="18dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</ScrollView>
